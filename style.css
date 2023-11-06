@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #35477d;
+    background-color: #5732FF; /*35477d*/
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -22,7 +22,7 @@ h1 {
     padding: 2rem;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #000000;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 .cta-button {
     display: block;
     width: 200px;
-    background-color: #35477d;
+    background-color: #5732FF;
     color: #fff;
     text-align: center;
     margin: 1rem auto;
@@ -42,10 +42,12 @@ p {
 }
 
 .cta-button:hover {
-    background-color: #293f6d;
+    background-color: #81828d;
 }
 
 .img-container {
-    float: right;  /* Alinea la imagen hacia la derecha */
-    
+    /*float: right;  /* Alinea la imagen hacia la derecha */
+    position: absolute;
+    top: 0;
+    right: 0;
 }
